@@ -20,7 +20,7 @@ from pydantic import BaseModel, ConfigDict, Field, HttpUrl, ValidationError
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://books.toscrape.com/"
 FIRST_PAGE = urljoin(BASE_URL, "catalogue/page-1.html")
-USER_AGENT = "FlyRankInternship-A9/1.0 (educational scraper; repository URL TODO)"
+USER_AGENT = "FlyRankInternship-A9/1.0 (educational scraper; https://github.com/ahmadfiazahmad/Polite_scraper)"
 TIMEOUT_SECONDS = 10
 MIN_DELAY_SECONDS = 0.5
 MAX_CATALOGUE_PAGES = 3
