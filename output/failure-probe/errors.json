@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://books.toscrape.com/catalogue/assignment-deliberate-missing-page.html",
+    "failure_type": "ConnectionError",
+    "details": "HTTPSConnectionPool(host='books.toscrape.com', port=443): Max retries exceeded with url: /catalogue/assignment-deliberate-missing-page.html (Caused by NameResolutionError(\"HTTPSConnection(host='books.toscrape.com', port=443): Failed to resolve 'books.toscrape.com' ([Errno -2] Name or service not known)\"))"
+  }
+]
